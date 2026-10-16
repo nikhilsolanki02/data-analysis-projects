@@ -2,7 +2,7 @@
 
 An interactive Excel dashboard analyzing 4 years of Superstore retail sales (2015-2018) to find which categories, regions, segments and months drive revenue.
 
-![Dashboard](dashboard/dashboard_screenshot.png)
+![Dashboard](dashboard_screenshot.png)
 
 ## Problem Statement
 Which products, regions and customer segments generate the most sales, and how does sales change over time? What should the business focus on?
@@ -51,11 +51,10 @@ Microsoft Excel: Excel Tables, formulas (SUMIFS, AVERAGEIFS, COUNTIF), dropdown 
 ## Project Structure
 ```
 superstore-sales-analysis/
-├── data/
-│   ├── train.csv
-│   └── superstore_clean.xlsx
-├── dashboard/
-│   └── dashboard_screenshot.png
+├── original_csv_file/
+│   └── train.csv
+├── superstore_clean.xlsx
+├── dashboard_screenshot.png
 └── README.md
 ```
 
